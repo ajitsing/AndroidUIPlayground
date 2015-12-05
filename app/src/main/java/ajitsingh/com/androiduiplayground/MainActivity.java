@@ -15,15 +15,20 @@ public class MainActivity extends AppCompatActivity {
   }
 
   public void showLinearHorizontalLayout(View view) {
-    Intent intent = new Intent(this, DemoActivity.class);
-    intent.putExtra(VIEW_TO_LOAD, R.layout.linear_horizontal);
-
-    startActivity(intent);
+    startDemo(R.layout.linear_horizontal);
   }
 
   public void showLinearVerticalLayout(View view) {
+    startDemo(R.layout.linear_vertical);
+  }
+
+  public void showTableLayout(View view) {
+    startDemo(R.layout.table_layout);
+  }
+
+  private void startDemo(int table_layout) {
     Intent intent = new Intent(this, DemoActivity.class);
-    intent.putExtra(VIEW_TO_LOAD, R.layout.linear_vertical);
+    intent.putExtra(VIEW_TO_LOAD, table_layout);
 
     startActivity(intent);
   }
