@@ -9,13 +9,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="ajitsingh.com.androiduiplayground.MainActivity">
+    tools:context="ajitsingh.com.androiduiplayground.DemoActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/linear_horizontal"
-        android:onClick="showLinearHorizontalLayout"
-        android:layout_gravity="center_horizontal"
-        android:text="Linear Layout (Horizontal)"/>
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
 </LinearLayout>
