@@ -1,11 +1,11 @@
 package ajitsingh.com.androiduiplayground;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
   public static final String VIEW_TO_LOAD = "viewToLoad";
 
   @Override
@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
   public void showTableLayout(View view) {
     startDemo(R.layout.table_layout);
+  }
+
+  public void showRelativeLayout(View view) {
+    startDemo(R.layout.relative_layout);
   }
 
   private void startDemo(int table_layout) {

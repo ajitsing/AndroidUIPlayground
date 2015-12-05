@@ -36,4 +36,13 @@
         android:onClick="showTableLayout"
         android:layout_gravity="center_horizontal"
         android:text="Table Layout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/absolute_layout"
+        android:onClick="showRelativeLayout"
+        android:layout_gravity="center_horizontal"
+        android:text="Relative Layout"/>
 </LinearLayout>

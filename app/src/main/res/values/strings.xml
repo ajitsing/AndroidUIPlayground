@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">AndroidUIPlayground</string>
+    <array name="dummy_list">
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+        <item>Hello</item>
+    </array>
 </resources>
