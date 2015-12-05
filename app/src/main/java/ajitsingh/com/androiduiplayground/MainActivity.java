@@ -20,4 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
     startActivity(intent);
   }
+
+  public void showLinearVerticalLayout(View view) {
+    Intent intent = new Intent(this, DemoActivity.class);
+    intent.putExtra(VIEW_TO_LOAD, R.layout.linear_vertical);
+
+    startActivity(intent);
+  }
 }
