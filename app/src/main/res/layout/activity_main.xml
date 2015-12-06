@@ -54,4 +54,14 @@
         android:onClick="showScrollLayout"
         android:layout_gravity="center_horizontal"
         android:text="Scroll Layout"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/frame_layout"
+        android:onClick="showFrameLayout"
+        android:layout_gravity="center_horizontal"
+        android:text="Frame Layout"/>
 </LinearLayout>

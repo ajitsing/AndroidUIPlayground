@@ -34,6 +34,10 @@ public class MainActivity extends Activity {
     startDemo(R.layout.scroll_layout);
   }
 
+  public void showFrameLayout(View view) {
+    startDemo(R.layout.frame_layout);
+  }
+
   private void startDemo(int table_layout) {
     Intent intent = new Intent(this, DemoActivity.class);
     intent.putExtra(VIEW_TO_LOAD, table_layout);
