@@ -1,11 +1,11 @@
 package ajitsingh.com.androiduiplayground;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
   public static final String VIEW_TO_LOAD = "viewToLoad";
 
   @Override

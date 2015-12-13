@@ -1,14 +1,14 @@
 package ajitsingh.com.androiduiplayground;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 
 import static ajitsingh.com.androiduiplayground.MainActivity.VIEW_TO_LOAD;
 
-public class DemoActivity extends Activity {
+public class DemoActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
