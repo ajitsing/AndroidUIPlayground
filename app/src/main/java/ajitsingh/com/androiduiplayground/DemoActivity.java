@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 
-import static ajitsingh.com.androiduiplayground.MainActivity.VIEW_TO_LOAD;
+import static ajitsingh.com.androiduiplayground.ViewTypesActivity.VIEW_TO_LOAD;
 
 public class DemoActivity extends AppCompatActivity {
 

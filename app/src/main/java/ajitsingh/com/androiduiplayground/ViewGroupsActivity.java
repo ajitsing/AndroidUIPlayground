@@ -5,13 +5,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
-  public static final String VIEW_TO_LOAD = "viewToLoad";
+import static ajitsingh.com.androiduiplayground.ViewTypesActivity.VIEW_TO_LOAD;
 
+public class ViewGroupsActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    setContentView(R.layout.view_groups);
   }
 
   public void showLinearHorizontalLayout(View view) {
@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
     startDemo(R.layout.frame_layout);
   }
 
-  private void startDemo(int table_layout) {
+  private void startDemo(int layout) {
     Intent intent = new Intent(this, DemoActivity.class);
-    intent.putExtra(VIEW_TO_LOAD, table_layout);
+    intent.putExtra(VIEW_TO_LOAD, layout);
 
     startActivity(intent);
   }
