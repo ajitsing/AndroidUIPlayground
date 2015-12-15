@@ -6,49 +6,53 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="ajitsingh.com.androiduiplayground.DemoActivity">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Hello"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_below="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Hello"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Hello"/>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Hello"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:id="@+id/buttons"
-        android:layout_alignParentTop="true"
-        android:background="@color/primary_dark_material_light">
+        android:layout_alignParentBottom="true">
 
         <Button
             android:layout_width="160dp"
             android:layout_height="match_parent"
+            style="@style/button"
             android:layout_alignParentLeft="true"
             android:text="Button 1"/>
 
         <Button
             android:layout_width="160dp"
+            style="@style/button"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:text="Button 2"/>
-    </RelativeLayout>
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttons"
-        android:entries="@array/dummy_list"/>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:background="@color/primary_dark_material_light">
-
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:text="Button 3"/>
-
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentRight="true"
-            android:text="Button 4"/>
     </RelativeLayout>
 </RelativeLayout>
