@@ -24,4 +24,9 @@ public class ViewTypesActivity extends AppCompatActivity {
     Intent intent = new Intent(this, ViewGroupsActivity.class);
     startActivity(intent);
   }
+
+  public void startAnimationDemo(View view) {
+    Intent intent = new Intent(this, Animation.class);
+    startActivity(intent);
+  }
 }

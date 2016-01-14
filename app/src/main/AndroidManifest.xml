@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".DemoActivity"/>
         <activity android:name=".ViewGroupsActivity"/>
+        <activity android:name=".Animation"/>
     </application>
 
 </manifest>
