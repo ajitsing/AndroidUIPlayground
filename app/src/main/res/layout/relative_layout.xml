@@ -8,6 +8,8 @@
     tools:context="ajitsingh.com.androiduiplayground.DemoActivity">
     <TextView
         android:id="@+id/t1"
+        android:paddingBottom="100dp"
+        android:layout_marginLeft="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30dp"
@@ -15,26 +17,13 @@
 
     <TextView
         android:id="@+id/t2"
-        android:layout_below="@+id/t1"
+        android:layout_toRightOf="@+id/t1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="Hello"/>
+        android:textStyle="bold"
+        android:text="$"/>
 
-    <TextView
-        android:layout_marginLeft="20dp"
-        android:layout_toEndOf="@+id/t2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Hello"/>
-
-    <TextView
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Hello"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
