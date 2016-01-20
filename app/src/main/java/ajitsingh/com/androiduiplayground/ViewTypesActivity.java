@@ -29,4 +29,9 @@ public class ViewTypesActivity extends AppCompatActivity {
     Intent intent = new Intent(this, Animation.class);
     startActivity(intent);
   }
+
+  public void refreshView(View view) {
+    Intent intent = new Intent(this, SwipeRefresh.class);
+    startActivity(intent);
+  }
 }
