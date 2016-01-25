@@ -19,6 +19,7 @@
         <activity android:name=".ViewGroupsActivity"/>
         <activity android:name=".Animation"/>
         <activity android:name=".SwipeRefresh"/>
+        <activity android:name=".ListViewSwipe"/>
     </application>
 
 </manifest>

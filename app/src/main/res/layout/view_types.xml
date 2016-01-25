@@ -55,4 +55,14 @@
         android:onClick="refreshView"
         android:layout_gravity="center_horizontal|center_vertical"
         android:text="Swipe Refresh"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_marginTop="20dp"
+        android:id="@+id/listViewSwipe"
+        android:onClick="listViewSwipe"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="List View Swipe"/>
 </LinearLayout>

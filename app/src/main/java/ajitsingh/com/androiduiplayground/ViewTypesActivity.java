@@ -34,4 +34,9 @@ public class ViewTypesActivity extends AppCompatActivity {
     Intent intent = new Intent(this, SwipeRefresh.class);
     startActivity(intent);
   }
+
+  public void listViewSwipe(View view) {
+    Intent intent = new Intent(this, ListViewSwipe.class);
+    startActivity(intent);
+  }
 }
