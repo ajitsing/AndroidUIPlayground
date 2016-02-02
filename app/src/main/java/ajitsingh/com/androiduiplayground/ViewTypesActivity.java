@@ -39,4 +39,9 @@ public class ViewTypesActivity extends AppCompatActivity {
     Intent intent = new Intent(this, ListViewSwipe.class);
     startActivity(intent);
   }
+
+  public void stackedView(View view) {
+    Intent intent = new Intent(this, StackedViewActivity.class);
+    startActivity(intent);
+  }
 }

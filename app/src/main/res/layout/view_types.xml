@@ -1,68 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    tools:context="ajitsingh.com.androiduiplayground.ViewTypesActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        style="@style/heading"
-        android:text="View Types.."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/button"
-        android:id="@+id/linear_horizontal"
-        android:onClick="showViewDetails"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="View"/>
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="ajitsingh.com.androiduiplayground.ViewTypesActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/button"
-        android:layout_marginTop="20dp"
-        android:id="@+id/linear_vertical"
-        android:onClick="showViewGroups"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="ViewGroup"/>
+        <TextView
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Types.."/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/button"
-        android:layout_marginTop="20dp"
-        android:id="@+id/animation_button"
-        android:onClick="startAnimationDemo"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="Animation Demo"/>
+        <Button
+            android:id="@+id/linear_horizontal"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:onClick="showViewDetails"
+            android:text="View"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/button"
-        android:layout_marginTop="20dp"
-        android:id="@+id/refresh"
-        android:onClick="refreshView"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="Swipe Refresh"/>
+        <Button
+            android:id="@+id/linear_vertical"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:onClick="showViewGroups"
+            android:text="ViewGroup"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/button"
-        android:layout_marginTop="20dp"
-        android:id="@+id/listViewSwipe"
-        android:onClick="listViewSwipe"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="List View Swipe"/>
-</LinearLayout>
+        <Button
+            android:id="@+id/animation_button"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:onClick="startAnimationDemo"
+            android:text="Animation Demo"/>
+
+        <Button
+            android:id="@+id/refresh"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:onClick="refreshView"
+            android:text="Swipe Refresh"/>
+
+        <Button
+            android:id="@+id/listViewSwipe"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:onClick="listViewSwipe"
+            android:text="List View Swipe"/>
+
+        <Button
+            android:id="@+id/stackedView"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:onClick="stackedView"
+            android:text="Stacked View"/>
+    </LinearLayout>
+</ScrollView>
