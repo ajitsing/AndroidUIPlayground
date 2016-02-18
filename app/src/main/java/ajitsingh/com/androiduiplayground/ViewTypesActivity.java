@@ -25,23 +25,8 @@ public class ViewTypesActivity extends AppCompatActivity {
     startActivity(intent);
   }
 
-  public void startAnimationDemo(View view) {
-    Intent intent = new Intent(this, Animation.class);
-    startActivity(intent);
-  }
-
-  public void refreshView(View view) {
-    Intent intent = new Intent(this, SwipeRefresh.class);
-    startActivity(intent);
-  }
-
-  public void listViewSwipe(View view) {
-    Intent intent = new Intent(this, ListViewSwipe.class);
-    startActivity(intent);
-  }
-
-  public void stackedView(View view) {
-    Intent intent = new Intent(this, StackedViewActivity.class);
+  public void otherDemos(View view) {
+    Intent intent = new Intent(this, MixedDemos.class);
     startActivity(intent);
   }
 }

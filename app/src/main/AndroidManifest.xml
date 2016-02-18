@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".DemoActivity"/>
         <activity android:name=".ViewGroupsActivity"/>
+        <activity android:name=".MixedDemos"/>
         <activity android:name=".Animation"/>
         <activity android:name=".SwipeRefresh"/>
         <activity android:name=".ListViewSwipe"/>
